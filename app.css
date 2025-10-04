@@ -1,0 +1,133 @@
+@font-face {
+    font-family:ru ;
+    src: url(./iphone.woff2);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+font-family: ru;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#nav{
+    height: 40px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    background-color:rgb(121, 120, 120);
+}
+
+#center{
+    height: 100%;
+    width: 100%;
+    background: black;
+    text-align: center;
+    color: white;
+    background-image: url(https://www.apple.com/v/home/ch/images/heroes/iphone-17-pro/hero_iphone_17_pro__bknyzxfk2agi_small_2x.jpg);
+background-size: contain;
+background-position: center;
+background-repeat: no-repeat;
+}
+h1{
+    font-size: 60px;
+    font-weight: 400;
+    padding: 15px;
+}
+
+h4{
+font-size: 30px;
+font-weight: 300;
+}
+
+#done{
+    color: white;
+    padding: 15px;
+ text-align: center;
+ 
+}
+
+button{
+    font-size: 20px;
+    border-radius: 30px;
+    padding: 10px 12px;
+    background: rgb(4, 4, 203);
+    border: none;
+    color: white;
+}
+#mm{
+    color: blue;
+    background-color: black;
+    border: 3px solid blue;
+    margin-left: 20px;
+    
+}
+
+#remain{
+height: 5%;
+width: 100%;
+background-color: white;
+}
+
+
+#air{
+    height: 115%;
+    width: 100%;
+    background:white;
+    text-align: center;
+    background-image: url(https://www.apple.com/v/home/ch/images/heroes/iphone-air/hero_iphone_air__0gxyavihpiqu_small_2x.jpg);
+    background-size: cover;   
+    background-position: center ;
+}
+#air h1{
+    font-size: 60px;
+    font-weight: 540;
+    padding: 10px;
+}
+#air h3{
+      font-size: 20px;
+      font-weight: 400;
+}
+
+#nrg{
+    color: white;
+    padding: 15px;
+ text-align: center;
+}
+#pp{ 
+    color: blue;
+background-color: white;
+    border: 3px solid blue;
+    margin-left: 20px;
+}
+
+#mac{
+    height: 110%;
+    width: 100%;
+    background-color: aliceblue;
+    text-align: center;
+    padding: 15px;
+    background-image: url(https://www.apple.com/v/home/ch/images/heroes/iphone-17/hero_iphone_17__c5vvimu9a20y_small_2x.jpg);
+        background-size: cover;   
+    background-position: center ;
+
+}
+
+#ex{
+color: white;
+    padding: 15px;
+ text-align: center;
+}
+
+#oo{
+color: blue;
+background-color: white;
+    border: 3px solid blue;
+    margin-left: 20px;
+}
+
